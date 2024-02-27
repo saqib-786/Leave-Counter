@@ -6,16 +6,33 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
-#main-container{
-    background-color: whitesmoke;
-    height: 100vh;
+#title{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 32px;
+}
+main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
+    background-color: lightblue;
+    height: 100vh;
+
+}
+#grand-leaves{
+    width: 270px;
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 20px;
 }
 table td{
     font-size: 18px;
     margin: 0px 10px;
+    font-weight: bold;
     
+}
+input{
+    min-width: 200px;
+    height: 30px;
+    padding: 0px 10px;
 }
