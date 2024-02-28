@@ -37,3 +37,9 @@ input{
     height: 30px;
     padding: 0px 10px;
 }
+span{
+    color: red;
+    /* background-color: yellow; */
+    width: 150px;
+    display: inline-block;
+}
